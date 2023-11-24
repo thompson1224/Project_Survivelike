@@ -381,6 +381,7 @@
 "Assets/Scripts/Bullet.cs"
 "Assets/Scripts/Enemy.cs"
 "Assets/Scripts/GameManager.cs"
+"Assets/Scripts/HUD.cs"
 "Assets/Scripts/Player.cs"
 "Assets/Scripts/PoolManager.cs"
 "Assets/Scripts/Reposition.cs"

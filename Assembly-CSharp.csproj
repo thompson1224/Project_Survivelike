@@ -50,6 +50,7 @@
      <Compile Include="Assets\Scripts\Enemy.cs" />
      <Compile Include="Assets\Scripts\Reposition.cs" />
      <Compile Include="Assets\Scripts\Scanner.cs" />
+     <Compile Include="Assets\Scripts\HUD.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\Undead Survivor\Animations" />
      <Folder Include="Assets\Settings" />
