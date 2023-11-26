@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Bullet : MonoBehaviour
@@ -20,22 +21,30 @@ public class Bullet : MonoBehaviour
         this.damage = damage;
         this.per = per;
 
-        if (per > -1)
+        if (per >= 0)
         {
-            rigid.velocity = dir * 10;
+            rigid.velocity = dir * 15f;
         }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (!collision.CompareTag("Enemy") || per == -1)
+        if (!collision.CompareTag("Enemy") || per == -100)
             return;
         per--;
 
-        if (per == -1)
+        if (per < 0)
         {
             rigid.velocity = Vector2.zero;
             gameObject.SetActive(false);
         }
+    }
+
+    void OnTriggerExit2D(Collider2D collision)
+    {
+        if (!collision.CompareTag("Area") || per == -100)
+            return;
+        
+        gameObject.SetActive(false);
     }
 }
