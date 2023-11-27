@@ -11090,7 +11090,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 11.111111
+  orthographic size: 10
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -23852,8 +23852,9 @@ MonoBehaviour:
   scanner: {fileID: 0}
   hands: []
   animCon:
-  - {fileID: 9100000, guid: 86b697b2f81118c4596ff6fbbb20497e, type: 2}
-  - {fileID: 22100000, guid: 26ee766dd96517a428ecfa7adfcd8453, type: 2}
+  - {fileID: 22100000, guid: 3042d0cd0322c804fa64e3f2b9542a31, type: 2}
+  - {fileID: 22100000, guid: 707621ebbe4036440a3b6582f9bfa62b, type: 2}
+  - {fileID: 22100000, guid: 70a4df4935fe75748b81f4c5f78ece95, type: 2}
 --- !u!114 &1392994291
 MonoBehaviour:
   m_ObjectHideFlags: 0
