@@ -35,8 +35,8 @@ public class Player : MonoBehaviour
         if (!GameManager.instance.isLive)
             return;
         
-        inputVec.x = Input.GetAxisRaw("Horizontal");
-        inputVec.y = Input.GetAxisRaw("Vertical");
+        // inputVec.x = Input.GetAxisRaw("Horizontal");
+        // inputVec.y = Input.GetAxisRaw("Vertical");
     }
 
     void FixedUpdate()
